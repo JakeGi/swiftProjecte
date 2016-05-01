@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		D1C555191CD5CFA9003070B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C555181CD5CFA9003070B0 /* AppDelegate.swift */; };
 		D1C5551B1CD5CFA9003070B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5551A1CD5CFA9003070B0 /* ViewController.swift */; };
-		D1C5551E1CD5CFA9003070B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C5551C1CD5CFA9003070B0 /* Main.storyboard */; };
 		D1C555201CD5CFA9003070B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C5551F1CD5CFA9003070B0 /* Assets.xcassets */; };
-		D1C555231CD5CFA9003070B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C555211CD5CFA9003070B0 /* LaunchScreen.storyboard */; };
 		D1C5552E1CD5CFA9003070B0 /* SwiftProjecteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5552D1CD5CFA9003070B0 /* SwiftProjecteTests.swift */; };
 		D1C555391CD5CFA9003070B0 /* SwiftProjecteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C555381CD5CFA9003070B0 /* SwiftProjecteUITests.swift */; };
+		D1C555541CD5E7F7003070B0 /* FoundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C555531CD5E7F7003070B0 /* FoundTableViewController.swift */; };
+		D1C555561CD5E811003070B0 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C555551CD5E811003070B0 /* MessageTableViewController.swift */; };
+		D1C5555C1CD5E897003070B0 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5555B1CD5E897003070B0 /* HomeTableViewController.swift */; };
+		D1C5555E1CD5E923003070B0 /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5555D1CD5E923003070B0 /* MeTableViewController.swift */; };
+		D1C555601CD5EFE6003070B0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5555F1CD5EFE6003070B0 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,7 @@
 		D1C555151CD5CFA9003070B0 /* SwiftProjecte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjecte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C555181CD5CFA9003070B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C5551A1CD5CFA9003070B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D1C5551D1CD5CFA9003070B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1C5551F1CD5CFA9003070B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D1C555221CD5CFA9003070B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1C555241CD5CFA9003070B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1C555291CD5CFA9003070B0 /* SwiftProjecteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProjecteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C5552D1CD5CFA9003070B0 /* SwiftProjecteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjecteTests.swift; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		D1C555341CD5CFA9003070B0 /* SwiftProjecteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProjecteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C555381CD5CFA9003070B0 /* SwiftProjecteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjecteUITests.swift; sourceTree = "<group>"; };
 		D1C5553A1CD5CFA9003070B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C555531CD5E7F7003070B0 /* FoundTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundTableViewController.swift; sourceTree = "<group>"; };
+		D1C555551CD5E811003070B0 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		D1C5555B1CD5E897003070B0 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		D1C5555D1CD5E923003070B0 /* MeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
+		D1C5555F1CD5EFE6003070B0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +103,16 @@
 		D1C555171CD5CFA9003070B0 /* SwiftProjecte */ = {
 			isa = PBXGroup;
 			children = (
+				D1C5554C1CD5E0F6003070B0 /* Common */,
+				D1C5554B1CD5E0DA003070B0 /* Main */,
+				D1C5554A1CD5E0CD003070B0 /* Tools */,
+				D1C555491CD5E0AE003070B0 /* Me */,
+				D1C555481CD5E09C003070B0 /* Found */,
+				D1C555471CD5E092003070B0 /* Message */,
+				D1C555461CD5E073003070B0 /* Home */,
 				D1C555181CD5CFA9003070B0 /* AppDelegate.swift */,
 				D1C5551A1CD5CFA9003070B0 /* ViewController.swift */,
-				D1C5551C1CD5CFA9003070B0 /* Main.storyboard */,
 				D1C5551F1CD5CFA9003070B0 /* Assets.xcassets */,
-				D1C555211CD5CFA9003070B0 /* LaunchScreen.storyboard */,
 				D1C555241CD5CFA9003070B0 /* Info.plist */,
 			);
 			path = SwiftProjecte;
@@ -123,6 +134,60 @@
 				D1C5553A1CD5CFA9003070B0 /* Info.plist */,
 			);
 			path = SwiftProjecteUITests;
+			sourceTree = "<group>";
+		};
+		D1C555461CD5E073003070B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D1C5555B1CD5E897003070B0 /* HomeTableViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		D1C555471CD5E092003070B0 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				D1C555551CD5E811003070B0 /* MessageTableViewController.swift */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		D1C555481CD5E09C003070B0 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				D1C555531CD5E7F7003070B0 /* FoundTableViewController.swift */,
+			);
+			name = Found;
+			sourceTree = "<group>";
+		};
+		D1C555491CD5E0AE003070B0 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D1C5555D1CD5E923003070B0 /* MeTableViewController.swift */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		D1C5554A1CD5E0CD003070B0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		D1C5554B1CD5E0DA003070B0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1C5555F1CD5EFE6003070B0 /* MainViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D1C5554C1CD5E0F6003070B0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C555231CD5CFA9003070B0 /* LaunchScreen.storyboard in Resources */,
 				D1C555201CD5CFA9003070B0 /* Assets.xcassets in Resources */,
-				D1C5551E1CD5CFA9003070B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C555601CD5EFE6003070B0 /* MainViewController.swift in Sources */,
+				D1C5555C1CD5E897003070B0 /* HomeTableViewController.swift in Sources */,
+				D1C555541CD5E7F7003070B0 /* FoundTableViewController.swift in Sources */,
+				D1C555561CD5E811003070B0 /* MessageTableViewController.swift in Sources */,
 				D1C5551B1CD5CFA9003070B0 /* ViewController.swift in Sources */,
 				D1C555191CD5CFA9003070B0 /* AppDelegate.swift in Sources */,
+				D1C5555E1CD5E923003070B0 /* MeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +362,6 @@
 			targetProxy = D1C555351CD5CFA9003070B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D1C5551C1CD5CFA9003070B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1C5551D1CD5CFA9003070B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D1C555211CD5CFA9003070B0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1C555221CD5CFA9003070B0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D1C5553B1CD5CFA9003070B0 /* Debug */ = {
@@ -402,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftProjecte/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiangjunjie.SwiftProjecte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,7 +464,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftProjecte/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiangjunjie.SwiftProjecte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
