@@ -16,6 +16,7 @@ class MessageTableViewController: BaseTableViewController {
         //        如果没有登录，设置未登录界面
         if !userLogin{
             viditorView?.setupVisitorInfo(false, imageName: "visitordiscover_image_message", message: "登录后，别人评论你的微薄，发给你的消息，都会在这里受到通知")
+            print("zheshi")
             
         }
 
