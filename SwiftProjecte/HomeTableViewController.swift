@@ -72,6 +72,10 @@ class HomeTableViewController: BaseTableViewController {
     func rightItemClick(){
         
         print("rightItemClick")
+        
+        let sb = UIStoryboard(name: "QrcodeViewController", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        presentViewController(vc!, animated: true, completion: nil)
     }
     
     private lazy var PopoverAnimater:PopoverAnimate = {
