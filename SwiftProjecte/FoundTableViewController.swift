@@ -8,16 +8,17 @@
 
 import UIKit
 
-class FoundTableViewController: UITableViewController {
+class FoundTableViewController: BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        //        如果没有登录，设置未登录界面
+        if !userLogin{
+            viditorView?.setupVisitorInfo(false, imageName: "visitordiscover_image_message", message: "登录后，最新、最热微薄尽在掌握，不在会与实事潮流擦肩而过")
+            
+        }
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {

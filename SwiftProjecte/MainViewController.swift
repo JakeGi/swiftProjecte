@@ -12,21 +12,46 @@ class MainViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //设置tabbar字体颜色
-        tabBar.tintColor = UIColor.orangeColor()
-        
+
         //设置tabbaritem
         addChildViewController(HomeTableViewController(), title: "首页", imageName: "tabbar_home",hightlighted: "tabbar_home_highlighted")
         addChildViewController(MessageTableViewController(),title: "消息",imageName: "tabbar_message_center",hightlighted: "tabbar_message_center_highlighted")
+        addChildViewController(NullViewController(),title: "",imageName: "",hightlighted: "")
         addChildViewController(FoundTableViewController(), title: "广场", imageName: "tabbar_discover", hightlighted: "tabbar_discover_highlighted")
         addChildViewController(MeTableViewController(), title: "我", imageName: "tabbar_profile", hightlighted: "tabbar_profile_highlighted")
         
     }
+    //mark: 懒加载中间的按钮
+    //创建按钮
+    private lazy var composeBTN : UIButton = {
+        let btn = UIButton(type: UIButtonType.Custom)
+        btn.setBackgroundImage(UIImage(named: "tabbar_compose_button"), forState: UIControlState.Normal)
+        btn.setImage(UIImage(named: "tabbar_compose_icon_add"), forState: UIControlState.Normal)
+        btn.addTarget(self, action: "composeClick", forControlEvents:  UIControlEvents.TouchUpInside)
+        self.tabBar.addSubview(btn)
+        return btn
+    }()
+    //计算按钮的位置
+    private func setupComposeBtn(){
+        let count = childViewControllers.count
+        //计算每个tabbaritem的宽度
+        let with = tabBar.bounds.width / CGFloat(count)
+        //偏移2个单位
+        let rect = CGRect(x: 0, y: 0, width: with, height: tabBar.bounds.height)
+        composeBTN.frame = CGRectOffset(rect, with*2, 0)
+        
+    }
+//    中间的按钮点击事件
+    func  composeClick(){
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        print("点击了按钮")
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        //    添加按钮
+        setupComposeBtn()
     }
     
     //    封装tabbar
@@ -41,6 +66,9 @@ class MainViewController: UITabBarController {
         //将导航控制器添加到当前控制器上
         addChildViewController(nav)
     }
+    
+    
+    
     
     
     /*

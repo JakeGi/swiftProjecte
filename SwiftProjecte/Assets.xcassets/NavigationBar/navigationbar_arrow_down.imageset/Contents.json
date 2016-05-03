@@ -5,6 +5,20 @@
       "scale" : "1x"
     },
     {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 7,
+          "top" : 6,
+          "right" : 13,
+          "left" : 12
+        }
+      },
       "idiom" : "universal",
       "filename" : "navigationbar_arrow_down@2x.png",
       "scale" : "2x"
